@@ -19,7 +19,7 @@ while True:
     if player_option == "1":
         race_options()
     elif player_option == "2":
-        Scoreboard()
+        scoreboard()
     elif player_option == "3":
         break
     else:
