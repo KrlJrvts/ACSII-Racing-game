@@ -26,11 +26,11 @@ def race_options():
         speed_car = input("Answer: ")
         if length_track == "R" and (speed_car == "Y" or speed_car == "N"):
             track = int(random.randint(10, 30))
-            Race(speed_car=speed_car, track=track)
+            race(speed_car=speed_car, track=track)
             break
         elif length_track != "R" and length_track.isnumeric() and (speed_car == "Y" or speed_car == "N"):
             track = int(length_track)
-            Race(speed_car=speed_car, track=track)
+            race(speed_car=speed_car, track=track)
             break
         # elif type(length_track) != int or speed_car == "Y" or speed_car == "N":
         #     print("Please make new choices")
