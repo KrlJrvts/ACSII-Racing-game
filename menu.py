@@ -1,5 +1,5 @@
-from Racinggame.raceoptions import Race_options
-from Racinggame.scoreboard import Scoreboard
+from raceoptions import race_options
+from scoreboard import scoreboard
 
 """ Game menu for ASCII Racing game"""
 
@@ -17,7 +17,7 @@ while True:
     print("3 - Exit game")
     player_option = input("Answer: ")
     if player_option == "1":
-        Race_options()
+        race_options()
     elif player_option == "2":
         Scoreboard()
     elif player_option == "3":

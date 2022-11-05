@@ -1,5 +1,5 @@
 import random
-from race import Race
+from race import race
 from time import sleep
 
 """
@@ -11,7 +11,7 @@ length = None
 speed = None
 
 
-def Race_options():
+def race_options():
     print("Please choose game options")
     print("How long race should be?")
     while True:

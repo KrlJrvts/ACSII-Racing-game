@@ -6,7 +6,7 @@ Default values
 """
 
 
-def Scoreboard():
+def scoreboard():
 
     print("Scoreboard")
 

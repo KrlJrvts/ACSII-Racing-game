@@ -11,7 +11,7 @@ from time import sleep
 import time
 
 
-def Race(track, speed_car):
+def race(track, speed_car):
     track1 = (track - 1) * ["_"] + ["|"]
     track2 = (track - 1) * ["_"] + ["|"]
     index_car1 = 0
