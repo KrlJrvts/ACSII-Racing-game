@@ -15,5 +15,5 @@ class Car:
         self.sleep = sleep
 
 
-car1 = Car("X", 100, 0.3)
+car1 = Car("X", 100, 0)
 car2 = Car("O", 150, 0.3)
